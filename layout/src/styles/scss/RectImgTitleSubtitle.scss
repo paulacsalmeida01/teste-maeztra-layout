@@ -1,0 +1,46 @@
+@import './Colors.scss';
+
+.rect-main {
+    width: 220px;
+    height: 60px;
+    margin: 0px;
+    background-color: #EFEFEF;
+    color: $fg-color;
+
+    display: flex;;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 20px;
+
+    border: none;
+    border-radius: 8px; 
+
+    img {
+        width: 26px;
+        height: 26px;
+        margin-left: 14px;
+        margin-right: 0px;
+    }
+
+    div {
+        .rect-main-t1 {
+            font-family: 'Titillium Web';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 18px;
+            padding: 0px;
+            margin: 0px;
+        }
+        .rect-main-t2 {
+            font-family: 'Titillium Web';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10.5px;
+            line-height: 16px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}

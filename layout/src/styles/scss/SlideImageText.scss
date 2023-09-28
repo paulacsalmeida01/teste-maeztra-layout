@@ -1,0 +1,65 @@
+@import './Colors.scss';
+
+.container-slide-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+    height: 430px;
+    object-fit: contain;
+    inset: 0;
+
+
+    .sub-main-slide {
+        padding-left: 20%;
+
+        .main-slide-text1 {
+            color: $bg-color;
+            width: 471px;
+            height: 49px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            padding-bottom: 20px;
+        }
+        .main-slide-text2 {
+            color: $bg-color;
+            width: 467px;
+            height: 48px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 18px;
+        }
+    }
+
+}
+
+// mobile
+@media screen and (max-width: $size_t){
+    .container-slide-image {
+        width: 100vw;
+        height: 15%;
+        background-position: 30% 0%;
+
+        .sub-main-slide {
+            padding-left: 7%;
+            padding-bottom: 20px;
+
+            .main-slide-text1 {
+                width: 271px;
+                height: 29px;
+                font-size: 20px;
+                line-height: 28px;
+                padding: 0px;
+            }
+            .main-slide-text2 {
+                width: 267px;
+                height: 28px;
+                font-size: 12px;
+                line-height: 12px;
+                padding: 0px;
+            }
+        }
+    }
+}

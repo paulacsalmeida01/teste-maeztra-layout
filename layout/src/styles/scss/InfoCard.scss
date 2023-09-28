@@ -1,0 +1,57 @@
+@import './Colors.scss';
+
+.infocard-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: $bg-color;
+    margin: 30px 12%;
+    padding: 0px;
+
+    .infocard-left-content {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        // background-color: red;
+
+        .infocard-title {
+            font-family: 'Titillium Web';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 20px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .infocard-text {
+            font-family: 'Titillium Web';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            height:100%;  
+            padding: 10px;
+        }
+    }
+
+    .infocard-right-content {
+        display:flex;
+        flex-grow: 1;
+        width: 100%;
+        overflow: hidden;
+        .infocard-image {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media screen and (max-width: $size_t){
+    .infocard-flexbox {
+        flex-direction: column;
+    }
+}

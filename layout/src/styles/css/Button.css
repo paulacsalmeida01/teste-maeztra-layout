@@ -1,0 +1,22 @@
+.submit-button {
+  background: #faa500;
+  width: 128px;
+  height: 40px;
+  border: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  z-index: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-button {
+    width: 70px;
+    height: 30px;
+    padding: 0px 5px;
+  }
+}
+
+/*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,64 @@
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-list img{
+  width: 245px;
+  height: auto;
+}
+.product-list .product-flex-div-colors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3px;
+}
+.product-list .square-colors {
+  width: 27px;
+  height: 27px;
+  left: 105px;
+  top: 0px;
+  border-radius: 4px;
+  margin: 5px 5px 5px 0px;
+}
+.product-list .product-description-div {
+  margin: 0px;
+}
+.product-list .product-description-div .product-price-p {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  color: #353535;
+  margin: 5px 0px;
+}
+.product-list .product-description-div .product-name-p {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  color: black;
+}
+.product-list .product-description-div .product-description-p {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18.25px;
+  height: 60px;
+  overflow: hidden;
+}
+.product-list .product-buttom-addcard {
+  height: 100%;
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.product-list .product-buttom-addcard Button {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Product.css.map */

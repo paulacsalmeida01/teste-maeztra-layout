@@ -1,0 +1,20 @@
+@import './Colors.scss';
+
+.iconAndLink {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+
+    a {
+       text-decoration: none;
+       color: $fg-color;
+    }   
+    img {
+        margin-right: 5px;
+    }
+}

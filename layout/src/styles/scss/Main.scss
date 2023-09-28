@@ -1,0 +1,136 @@
+@import './Colors.scss';
+
+.main-div-title-reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // padding: 10px 16%;
+    padding-bottom: 40px;
+
+
+    .main-title-reasons {
+        color: $fg-color;
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        padding: 7px 0px;
+    }
+    .five-reasons-rectangles {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+.main-brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+
+    .main-div-brands {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        gap: 30px;
+        row-gap: 20px;
+
+        .main-div-logo {
+            margin: 5px 0px;
+            width: 216px;  
+            border: 1px solid $gray1;
+        }
+    }
+
+    .product-buttom-addcard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .addtocardbuttom {
+            width: 100%;
+        }
+    }
+}
+
+.main-title-brands {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 49px;
+    text-align: center;
+    color: $fg-color;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main-amostra {
+    padding: 0px 12%;
+}
+.main-product-list {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    gap: 20px;
+    width: 1000px;
+    overflow-x: auto;
+}
+
+.hidden-icon {
+    display: none;
+}
+
+@media screen and (max-width: $size_t){
+    .main-div-brands {
+        gap: 10px !important;
+        row-gap: 3px !important;
+    }
+    .main-div-logo {
+        width: 150px !important;
+        height: auto;
+    }
+    .main-header {
+        .hidden-not-hidden {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        .hidden-icon {
+            display: block;
+        }
+        display: flex;
+        justify-content: space-between !important;
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .main-amostra {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-product-list {
+        height: auto;
+        max-width: 640px;
+        overflow-x:auto;
+    }
+}

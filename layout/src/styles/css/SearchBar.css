@@ -1,0 +1,13 @@
+.search-bar-style {
+  padding-left: 15px;
+  background: #efefef;
+  border: 0px;
+  width: 465px;
+  font-size: 12px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/*# sourceMappingURL=SearchBar.css.map */

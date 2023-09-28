@@ -1,0 +1,13 @@
+@import './Colors.scss';
+
+body {
+	background-color: $bg-color;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.App {
+    margin: 0px;
+    padding: 0px;
+    background-color: $bg-color;
+    font-family: 'Titillium Web', sans-serif;
+}

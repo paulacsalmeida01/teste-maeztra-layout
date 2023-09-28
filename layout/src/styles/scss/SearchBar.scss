@@ -1,0 +1,17 @@
+@import './Colors.scss';
+
+.search-bar-style {
+    padding-left: 15px;
+    background: $gray1;
+    border: 0px;
+
+    width: 465px;
+    height: 38px;
+    font-size: 12px;
+    line-height: 18px;
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+}

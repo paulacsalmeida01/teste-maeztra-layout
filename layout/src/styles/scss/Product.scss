@@ -1,0 +1,63 @@
+@import './Colors.scss';
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    // background-color: red;
+    // border: 3px solid blue;
+
+    .product-flex-div-colors {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 3px;
+    }
+    .square-colors {
+        width: 27px;
+        height: 27px;
+        left: 105px;
+        top: 0px;
+        border-radius: 4px;
+        margin: 5px 5px 5px 0px;
+    }
+
+    .product-description-div {
+        margin: 0px;
+        .product-price-p {
+            font-family: 'Titillium Web';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            color: $fg-color;
+            margin: 5px 0px;
+        }
+        .product-name-p {
+            font-family: 'Titillium Web';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: black;
+        }
+        .product-description-p {
+            font-family: 'Titillium Web';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    .product-buttom-addcard {
+        height: 100%;
+        width: 100%;
+        padding: 5px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        Button {
+            width: 100%;  
+        }
+    }
+}

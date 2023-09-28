@@ -1,0 +1,41 @@
+@import './Colors.scss';
+
+.footernewsletter-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid $gray1;
+    border-bottom: 1px solid $gray1;
+    
+    .footernewsletter-receba {
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 37px;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    .footernewsletter-input {
+        display: flex;
+        align-items: center;
+        width: 325px;
+        max-width: 350px;
+        background-color: $gray1;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: $size_t){
+    .footernewsletter-div {
+        flex-direction: column;
+        padding-bottom: 30px;
+        gap: 0px;
+        .footernewsletter-receba {
+           padding: 2px 0px;
+        }
+    }
+}
